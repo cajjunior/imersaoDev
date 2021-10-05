@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  font-family: "Bebas Neue", cursive;
+  min-height: 400px;
+  background-image: url("https://s2.glbimg.com/cJlHlnxXnLh99gBUf-OK3OgmoP0=/0x0:1700x1192/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/C/O/QxZtLNSCyGEltZJkNooA/fearless-girl-wall-st-fran.jpg");
+  background-color: #ffffff;
+  background-size: 200vh;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  font-size: 80px;
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  font-size: 50px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  width: 90px;
+  font-size: 18px;
+}
+
+label {
+  color: black;
+  font-size: 50px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #000000;
+  color: #ffffff;
+  width: 90px;
+  font-size: 18px;
+}
+
+h2 {
+  color: #ffbf00;
+  font-size: 50px;
+  background: #000000;
+  border-radius: 15px;
+}

@@ -1,0 +1,77 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://content.betsul.com/media/campeonato-brasileiro-pontuacao-campeao-betsul1sl.jpg");
+  background-color: #111;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  font-family: "Roboto Mono", monospace;
+  border: 2px solid white;
+  border-collapse: collapse;
+  background: black;
+  opacity: 0.8;
+  border-radius: 12px;
+}
+
+h1 {
+  color: white;
+  background: black;
+  opacity: 0.8;
+  border-radius: 12px;
+}
+
+th,
+tr,
+td {
+  font-family: "Roboto Mono", monospace;
+  border: solid 1px white;
+  color: white;
+  border-radius: 12px;
+}
+
+.indice {
+  color: white;
+  background: black;
+  opacity: 0.8;
+  border-radius: 12px;
+}
+
+button,
+input {
+  font-family: "Roboto Mono", monospace;
+}

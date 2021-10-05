@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #737373 27.26%, #333439 96.03%);
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+a {
+  font-size: 18px;
+  color: #000000;
+}
+
+.dark a {
+  font-size: 18px;
+  color: #ffffff;
+}
+.container {
+  margin: 64px;
+  background: #333439;
+  color: #f2f2f2;
+  border-radius: 20px;
+  padding: 64px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  max-width: 200px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.contatos {
+  max-width: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 8px 16px;
+  background: #333439;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #ffffff;
+  color: #f2f2f2;
+}
+
+.portfolio {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.projetos {
+  width: 65vw;
+  max-height: flex-end;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 32px;
+  background: linear-gradient(230.65deg, #ffffff 27.49%, #f2f2f2 83.19%);
+  color: #000000;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.projetos ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.3em;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #737373 27.26%, #f2f2f2 96.03%);
+}
+
+.dark .container {
+  background: #f2f2f2;
+  color: #000000;
+}
+
+.dark .portfolio {
+  color: #333439;
+}
+
+.dark .projetos {
+  background: #333439;
+  color: #ffffff;
+}
+.dark .tema button {
+  color: #333439;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #333439;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1c1c1c;
+  border: 1.8px solid #1c1c1c;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ecf4ff;
+}
+
+::-webkit-scrollbar-track {
+  background: #ecf4ff;
+  border-radius: 100px;
+  box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  margin: 15px 0px;
+}
+
+img {
+  border-radius: 100px;
+}

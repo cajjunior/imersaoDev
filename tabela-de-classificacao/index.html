@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tabela de classificação</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Tabela de classificação
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de classificação</h1>
+
+  <table style="width:100%">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</th>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+      </tr>
+      <input type="text" id="nomeNovoJogador" name="nomeNovoJogador" placeholder="Nome do novo jogador">
+      <button onClick="adicionarJogador()">Adicionar Jogador</button>
+      <br><br>
+    </thead>
+    <tbody id="tabelaJogadores">
+    </tbody>
+  </table>
+  <div class="indice">
+    <p> Vitória = 3 pontos;
+      Empate = 1 ponto;
+    </p>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
